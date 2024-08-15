@@ -1,5 +1,5 @@
 # Importing class that creates the application window
-from section9GUI import GUI
+from AppGUI import GUI
 
 def main():
     
