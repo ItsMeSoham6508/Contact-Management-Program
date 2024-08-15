@@ -65,10 +65,10 @@ class ContactDb:
 
         # Storing the database connection into the object mydb2
         self.mydb2 = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="Omsai01*",
-            database="pythonPasses"
+            host="",
+            user="",
+            password="",
+            database=""
         )
 
         # Making the cursor
