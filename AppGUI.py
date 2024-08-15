@@ -2,7 +2,7 @@
 from tkinter import messagebox
 import tkinter as tk
 import mysql.connector
-from section9DBClass import *
+from dbClass import *
 from tkinter import filedialog
 import smtplib
 
