@@ -1,10 +1,3 @@
-'''
-Soham Desai
-Cmdr. Schenk
-Feb 9 2024
-Contact Management Program For Section 9
-'''
-
 # Importing class that creates the application window
 from section9GUI import GUI
 
