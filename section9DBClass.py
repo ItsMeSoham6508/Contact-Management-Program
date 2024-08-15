@@ -1,10 +1,3 @@
-"""
-Soham Desai
-Cmdr. Schenk
-Feb 12 2024
-DB CLASS
-"""
-
 # Imports
 import mysql.connector
 
@@ -16,10 +9,10 @@ class ContactDb:
 
             # Storing the database connection into the object mydb
             self.mydb = mysql.connector.connect(
-                host="localhost",
-                user="root",
+                host="",
+                user="",
                 password=pswd,
-                database="pythondb"
+                database=""
             )
 
             # Making the cursor
