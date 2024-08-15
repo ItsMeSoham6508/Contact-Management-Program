@@ -1,10 +1,3 @@
-'''
-Soham Desai
-Cmdr. Schenk
-Feb 9 2024
-GUI class for section 9
-'''
-
 # Imports
 from tkinter import messagebox
 import tkinter as tk
@@ -30,7 +23,7 @@ class GUI:
         self.authentication = authentication
 
         # Window Icon
-        self.securityIcon = tk.PhotoImage(file=r"C:\Users\OMSAI\Downloads\download-removebg-preview.png")
+        self.securityIcon = tk.PhotoImage(file=r"\download-removebg-preview.png")
         self.authentication.wm_iconphoto(False, self.securityIcon)
 
         self.authenticationLbl = tk.Label(authentication,text="LOGIN")
