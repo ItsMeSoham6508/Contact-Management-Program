@@ -612,7 +612,7 @@ CREATOR: SOHAMERSON""")
             info.resizable(False,False)
             info.title("DATABASE INFO")
 
-            schemaLbl = tk.Label(info, text="Database: pythondb")
+            schemaLbl = tk.Label(info, text="Database: ")
             schemaLbl.pack(pady=10)
 
             hostLbl = tk.Label(info, text="Host: Local Host")
@@ -635,10 +635,10 @@ CREATOR: SOHAMERSON""")
     
     # HOVER FUNCTIONS FOR DATABASE INFO WINDOW
     def onHover(self, event):
-        self.code.config(text="Omsai01*",cursor="hand2")
+        self.code.config(text="",cursor="hand2")
 
     def offHover(self,event):
-        self.code.config(text="********", cursor="")
+        self.code.config(text="", cursor="")
 
     def sendFeedbackEmail(self,msg,user):
 
@@ -647,8 +647,8 @@ CREATOR: SOHAMERSON""")
         port_num = 587
 
         # Some info
-        from_email = "makemamoney2022@gmail.com"
-        to_email = "makemamoney2022@gmail.com"
+        from_email = ""
+        to_email = ""
         password_email = self.password_list[3]
 
         # Message that will be sent + parameters
