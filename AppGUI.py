@@ -64,7 +64,7 @@ class GUI:
             self.application = application
 
             # Window icon
-            icon = tk.PhotoImage(file=r"C:\Users\OMSAI\OneDrive\Desktop\section9.png")
+            icon = tk.PhotoImage(file=r"")
             self.application.wm_iconphoto(False, icon)
 
             # Make sure it is stored in memory, this is where records are stored
